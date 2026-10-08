@@ -21,7 +21,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58484
+54573
 -job-worker-count
 4
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/lotte/GameProjects/Morphed_Menageri
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8321573248]  Target information:
 
-Player connection [8321573248]  * "[IP] 192.168.3.128 [Port] 0 [Flags] 2 [Guid] 1325157291 [EditorId] 1325157291 [Version] 1048832 [Id] OSXEditor(0,mac.home) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8321573248]  * "[IP] 192.168.3.128 [Port] 0 [Flags] 2 [Guid] 3678648958 [EditorId] 3678648958 [Version] 1048832 [Id] OSXEditor(0,mac.home) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8321573248] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8321573248] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -98,16 +98,16 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.56f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.56f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.56f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56939
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.56f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000351 seconds.
-- Loaded All Assemblies, in  0.144 seconds
+Registered in 0.000423 seconds.
+- Loaded All Assemblies, in  0.137 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.159 seconds
-Domain Reload Profiling: 304ms
+- Finished resetting the current domain, in  0.141 seconds
+Domain Reload Profiling: 278ms
 	BeginReloadAssembly (38ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
@@ -115,26 +115,26 @@ Domain Reload Profiling: 304ms
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (68ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (62ms)
 		LoadAssemblies (38ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (67ms)
-			TypeCache.Refresh (66ms)
-				TypeCache.ScanAssembly (59ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (60ms)
+				TypeCache.ScanAssembly (54ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (159ms)
+	FinalizeReload (141ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (141ms)
+		SetupLoadedEditorAssemblies (124ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (61ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (56ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -146,11 +146,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.243 seconds
+- Loaded All Assemblies, in  0.201 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.03 ms, found 0 plugins.
 Native extension for OSXStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -158,1770 +158,341 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.241 seconds
-Domain Reload Profiling: 484ms
-	BeginReloadAssembly (55ms)
+- Finished resetting the current domain, in  0.259 seconds
+Domain Reload Profiling: 460ms
+	BeginReloadAssembly (52ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (10ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (152ms)
-		LoadAssemblies (116ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (84ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (61ms)
-			TypeCache.Refresh (45ms)
-				TypeCache.ScanAssembly (39ms)
-			BuildScriptInfoCaches (11ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (37ms)
+			BuildScriptInfoCaches (10ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (241ms)
+	FinalizeReload (259ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (192ms)
+		SetupLoadedEditorAssemblies (211ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (1ms)
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.56f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 96 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3978 unused Assets / (11.4 MB). Loaded Objects now: 4403.
-Memory consumption went from 117.9 MB to 106.5 MB.
-Total: 5.391875 ms (FindLiveObjects: 0.230041 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.319375 ms  DeleteObjects: 2.769041 ms)
+Unloading 51 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4080 unused Assets / (7.2 MB). Loaded Objects now: 4768.
+Memory consumption went from 119.0 MB to 111.7 MB.
+Total: 4.255167 ms (FindLiveObjects: 0.146334 ms CreateObjectMapping: 0.066750 ms MarkObjects: 2.425625 ms  DeleteObjects: 1.616000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19519.181557 seconds.
-  path: Packages/com.unity.shadergraph
-  artifactKey: Guid(fd76a3f99de39609eb8efd2132c5963e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph using Guid(fd76a3f99de39609eb8efd2132c5963e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95a325a1d58ebdab7bb7e6fd9bc4c0c8') in 0.002115375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.unity.shadergraph/package.json
-  artifactKey: Guid(d5ac453c34e359d439de9d724772ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/package.json using Guid(d5ac453c34e359d439de9d724772ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcfefb96cd96654494e0c36417f15273') in 0.009530667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 96 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3984 unused Assets / (11.1 MB). Loaded Objects now: 4415.
-Memory consumption went from 116.5 MB to 105.4 MB.
-Total: 5.975750 ms (FindLiveObjects: 0.150750 ms CreateObjectMapping: 0.061416 ms MarkObjects: 2.638750 ms  DeleteObjects: 3.124500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.05 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 96 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3984 unused Assets / (11.3 MB). Loaded Objects now: 4415.
-Memory consumption went from 115.9 MB to 104.6 MB.
-Total: 6.101292 ms (FindLiveObjects: 0.139000 ms CreateObjectMapping: 0.058083 ms MarkObjects: 2.680209 ms  DeleteObjects: 3.223958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 57.060675 seconds.
-  path: Assets/Imported/Starter Assets
-  artifactKey: Guid(a908cce6aa3d8f74e954ad889e088948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets using Guid(a908cce6aa3d8f74e954ad889e088948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a93935212243bcfd324f9b07fee7ebb9') in 0.00023525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.559583 seconds.
-  path: Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef
-  artifactKey: Guid(65197035c7dd3894d8e8f7a6513ffc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef using Guid(65197035c7dd3894d8e8f7a6513ffc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3e79fe32ef3e73b369df4fa36d840c') in 0.000271 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.473568 seconds.
-  path: Assets/Imported/Starter Assets/Editor/ThirdPersonStarterAssetsDeployMenu.cs
-  artifactKey: Guid(b70f45aa92a641feb261c5d55ce46edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Editor/ThirdPersonStarterAssetsDeployMenu.cs using Guid(b70f45aa92a641feb261c5d55ce46edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c6008f44ed0127fb86046f9c8f928b8') in 0.000217375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 96 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3983 unused Assets / (11.2 MB). Loaded Objects now: 4414.
-Memory consumption went from 115.1 MB to 103.9 MB.
-Total: 5.579625 ms (FindLiveObjects: 0.138125 ms CreateObjectMapping: 0.062250 ms MarkObjects: 2.348917 ms  DeleteObjects: 3.030250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16cf7b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.207 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.257 seconds
-Domain Reload Profiling: 464ms
-	BeginReloadAssembly (65ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (8ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (95ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (42ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (32ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (257ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (212ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (100ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (1ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (6.1 MB). Loaded Objects now: 4573.
-Memory consumption went from 128.8 MB to 122.7 MB.
-Total: 4.004000 ms (FindLiveObjects: 0.135542 ms CreateObjectMapping: 0.061791 ms MarkObjects: 2.288375 ms  DeleteObjects: 1.518167 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.768566 seconds.
-  path: Assets/Imported/Starter Assets/Editor
-  artifactKey: Guid(4a12a4d2ef7f03c49b93b5e1dc150ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Editor using Guid(4a12a4d2ef7f03c49b93b5e1dc150ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c76fc99560c3cd0f65644be7a9bb7428') in 0.000711167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.284454 seconds.
-  path: Assets/Imported/Starter Assets/Editor/URPWizard
-  artifactKey: Guid(a936c3509519d6b48bb3a44692f8695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Editor/URPWizard using Guid(a936c3509519d6b48bb3a44692f8695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83ded800823f8f3b5fa669622727aea1') in 0.000224291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.625458 seconds.
-  path: Assets/Imported/Starter Assets/Editor/StarterAssetsDeployMenu.cs
-  artifactKey: Guid(e75357183ea302c4d998136de2cc9669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Editor/StarterAssetsDeployMenu.cs using Guid(e75357183ea302c4d998136de2cc9669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cc48b2a95469fcbd4c1909f7ed071e7') in 0.000204 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.275624 seconds.
-  path: Assets/Imported/Starter Assets/Runtime
-  artifactKey: Guid(86764a910a1ef6042bd6232da5be8ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Runtime using Guid(86764a910a1ef6042bd6232da5be8ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96640c6c54916304602e720dd040b152') in 0.000214333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056914 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef
-  artifactKey: Guid(21046f374a25c0845adf5880bccdb30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef using Guid(21046f374a25c0845adf5880bccdb30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd26459be5cf355e947e3bfd01172936') in 0.00019975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.112027 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/FirstPersonController
-  artifactKey: Guid(989cd1dabf2a892459e96139bfdd4a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Runtime/FirstPersonController using Guid(989cd1dabf2a892459e96139bfdd4a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8098fa6f5d09c5fbdbbdc813cb396765') in 0.000231625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.815648 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs
-  artifactKey: Guid(3547d539220f51a4599294020a5f42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs using Guid(3547d539220f51a4599294020a5f42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aeb35d3c94db2e8b3d78954f1f2ee6d') in 0.000250167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043407 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/MainCamera.prefab
-  artifactKey: Guid(2d3a85ecde41a8246a79669975912b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/MainCamera.prefab using Guid(2d3a85ecde41a8246a79669975912b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7379f222af9acad267785d02e0f18c53') in 0.015456458 seconds
+  Time since last request: 31518.394514 seconds.
+  path: Assets/Art/Shaders/GrassShader.shadergraph
+  artifactKey: Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/GrassShader.shadergraph using Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9704e7433b427a1b34ada8637bada2a0') in 0.570885208 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/PlayerFollowCamera.prefab
-  artifactKey: Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '888f569e9a2dc8dd1d2ae5ec5bf22fb6') in 0.001868875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 47.510224 seconds.
+  path: Assets/Art/Shaders/GrassShader.shadergraph
+  artifactKey: Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/GrassShader.shadergraph using Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5338b76fc9acd917132368328761c929') in 0.495914125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/PlayerCapsule.prefab
-  artifactKey: Guid(c5efc39a8aaf6e64ea40e9ad573e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/PlayerCapsule.prefab using Guid(c5efc39a8aaf6e64ea40e9ad573e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e93fced581feec89d9b5b23f130eff6') in 0.225035209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.438306 seconds.
-  path: Assets/DefaultVolumeProfile.asset
-  artifactKey: Guid(24a4c845b475044a181e549e1c1442b9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(24a4c845b475044a181e549e1c1442b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5a5aef02aa4c4ee5c5441a8d821dd22') in 0.0609595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Mobile/UI/Images/UI_Icon_Jump.png
-  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Mobile/UI/Images/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c0daa374c7d3084b25f66d1e2807455') in 0.025994583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Mobile/UI/Images/UI_Icon_Sprint.png
-  artifactKey: Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Mobile/UI/Images/UI_Icon_Sprint.png using Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '436e2373223165040d530928557c863a') in 0.005137417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Mobile/UI/Images/UI_Icon_Look.png
-  artifactKey: Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Mobile/UI/Images/UI_Icon_Look.png using Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '565e2be8dc001df3097c104650885a62') in 0.0050645 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/FirstPersonController/Scripts/FirstPersonController.cs
-  artifactKey: Guid(55919ac34a26952479f3fc91f777b2fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/FirstPersonController/Scripts/FirstPersonController.cs using Guid(55919ac34a26952479f3fc91f777b2fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddaf3c22fb3941cad1338c876a578035') in 0.001385042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Settings/Very Low_PipelineAsset.asset
-  artifactKey: Guid(69480fc1192f04488be5781c2ec080a9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Settings/Very Low_PipelineAsset.asset using Guid(69480fc1192f04488be5781c2ec080a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea0e69af2db2a7cacc04c11f157ac943') in 0.023736083 seconds
+  Time since last request: 11.761416 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(ed2bb86185a16456299be7179902b171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(ed2bb86185a16456299be7179902b171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dd9b553401e23a388d55c11f55393ba') in 0.009959125 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7553eedf8f13b0998ffb0c659808a70') in 0.004658166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Mobile/Prefabs/UI_TouchScreenInput.prefab
-  artifactKey: Guid(7d001cacf887eb14cbf269a09e3ec3ba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Mobile/Prefabs/UI_TouchScreenInput.prefab using Guid(7d001cacf887eb14cbf269a09e3ec3ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fa79bc7e5a38f9065a72e551fbe0633') in 0.030812292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Settings/High_PipelineAsset.asset
-  artifactKey: Guid(85f61ec9fa7114d5f88c736532abeeef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Settings/High_PipelineAsset.asset using Guid(85f61ec9fa7114d5f88c736532abeeef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b73e29a6d884c424484868a76c31cf2') in 0.0054275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Settings/Very High_PipelineAsset.asset
-  artifactKey: Guid(6c78c14c4228d46a29bda6557d8041f9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Settings/Very High_PipelineAsset.asset using Guid(6c78c14c4228d46a29bda6557d8041f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e55f0de3de94ccfc66c8b2134a40402f') in 0.004537709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Mobile/UI/Images/UI_Circle_Faded.png
-  artifactKey: Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Mobile/UI/Images/UI_Circle_Faded.png using Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8b80b66ac89adfa703b5cec8c7920b0') in 0.008057875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Imported/Starter Assets/Editor/StarterAssetsDeployMenu.cs
-  artifactKey: Guid(e75357183ea302c4d998136de2cc9669) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Editor/StarterAssetsDeployMenu.cs using Guid(e75357183ea302c4d998136de2cc9669) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4ffad54282a0fc62fcf442135c2d0e7') in 0.002376875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scenes/EnvironmentTest.unity
-  artifactKey: Guid(6e4e05ca234a34e6a959824c7aa75d41) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/EnvironmentTest.unity using Guid(6e4e05ca234a34e6a959824c7aa75d41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e94bd847737be5793262f4dad5318358') in 0.00127825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/InputSystem/StarterAssets.inputsettings.asset
-  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36588ed36161af068f716d24e4192ad4') in 0.003576666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000046 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Settings/Ultra_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(4ee808e09c6774436b0c2a048e53e708) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Settings/Ultra_PipelineAsset_ForwardRenderer.asset using Guid(4ee808e09c6774436b0c2a048e53e708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c62fc709b76091a669acef460ae6f94') in 0.009505833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Settings/High_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(3845c0ed313b24e138f25ec5f2faacf0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Settings/High_PipelineAsset_ForwardRenderer.asset using Guid(3845c0ed313b24e138f25ec5f2faacf0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d652835ee6fc02ea94cae18184ea818') in 0.002133041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Settings/Very High_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(4962dd039b8344ed295c4518245d6c7b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Settings/Very High_PipelineAsset_ForwardRenderer.asset using Guid(4962dd039b8344ed295c4518245d6c7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'adcd33aae50074e050b10502cf67331b') in 0.002340917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef
-  artifactKey: Guid(18828b1d1020dde47bec693eef18a5b9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef using Guid(18828b1d1020dde47bec693eef18a5b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d9d45a75db830ab61a6aa51329a666e') in 0.001268291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Settings/Very Low_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(68e7634ac637d4fa3b93ca66af33aa8a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Settings/Very Low_PipelineAsset_ForwardRenderer.asset using Guid(68e7634ac637d4fa3b93ca66af33aa8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '387f45cea9ab5679aa17a26506130c68') in 0.002483625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Mobile/Scripts/VirtualInput.cs
-  artifactKey: Guid(ed06e3b6fec5ecc4696004cedc31f0ac) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Mobile/Scripts/VirtualInput.cs using Guid(ed06e3b6fec5ecc4696004cedc31f0ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9cb250e6e784614d8beefa17b492bda') in 0.001478375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/PlayerFollowCamera.prefab
-  artifactKey: Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4c68dfcbbe2f61d5d70b39a43a38f8e') in 0.007415125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Mobile/Scripts/TouchscreenInput.cs
-  artifactKey: Guid(6d7e4e4868ed5df4b928c22423c690a0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Mobile/Scripts/TouchscreenInput.cs using Guid(6d7e4e4868ed5df4b928c22423c690a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26a3a127357d22abc7bc12c1883cadf8') in 0.001161667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Settings/Low_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(44b37c8f6729f41cfac615998e7cc9f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Settings/Low_PipelineAsset_ForwardRenderer.asset using Guid(44b37c8f6729f41cfac615998e7cc9f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '883f17fe9328b9ddcefd07993363d3a7') in 0.002345041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs
-  artifactKey: Guid(901182334643ba1438a25accc6bd0c79) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs using Guid(901182334643ba1438a25accc6bd0c79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09b6a3d09f59c999bc50289572f116b3') in 0.001275042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/MainCamera.prefab
-  artifactKey: Guid(2d3a85ecde41a8246a79669975912b74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/Starter Assets/Runtime/FirstPersonController/Prefabs/MainCamera.prefab using Guid(2d3a85ecde41a8246a79669975912b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8429baff5c6208d4cd3147ec02d7091') in 0.011565959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.912778 seconds.
-  path: Assets/DefaultVolumeProfile.asset
-  artifactKey: Guid(24a4c845b475044a181e549e1c1442b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(24a4c845b475044a181e549e1c1442b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6983391b7adcf0094709f60e99db5938') in 0.000366916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (4.0 MB). Loaded Objects now: 4605.
-Memory consumption went from 129.6 MB to 125.6 MB.
-Total: 3.866334 ms (FindLiveObjects: 0.078375 ms CreateObjectMapping: 0.032042 ms MarkObjects: 3.115458 ms  DeleteObjects: 0.640250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.266338 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa5157647bad2cc3141af67a0511a312') in 0.002156167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.607577 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/New Terrain.asset using Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9efc9a662405f3083e9a59373bedb5d') in 0.00248225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.605920 seconds.
-  path: Assets/Art/Terrain
-  artifactKey: Guid(947bbc0d0aa3c482eaa52c103a6b26a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Terrain using Guid(947bbc0d0aa3c482eaa52c103a6b26a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6125225a39227796d25367406ec51d8') in 0.0002805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.973318 seconds.
-  path: Assets/Art/Terrain
-  artifactKey: Guid(947bbc0d0aa3c482eaa52c103a6b26a2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Art/Terrain using Guid(947bbc0d0aa3c482eaa52c103a6b26a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e592806890076e3311629b99c31064a') in 0.00113325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.535881 seconds.
-  path: Assets/Art/New Terrain.asset
-  artifactKey: Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Art/New Terrain.asset using Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03683846d65a74f4d4821d8b167b3cbf') in 0.002231917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.186221 seconds.
   path: Assets/Art/Terrain/New Terrain.asset
-  artifactKey: Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Art/Terrain/New Terrain.asset using Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ed82b6108c01b6c7cc881cb10025612') in 0.002193167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.480733 seconds.
-  path: Assets/URP
-  artifactKey: Guid(dc122ac4fee8246ac94fd2a6bf8fa549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP using Guid(dc122ac4fee8246ac94fd2a6bf8fa549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03719f3ae44fdd3d74e20e760e8bd20a') in 0.0002585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.977828 seconds.
-  path: Assets/URP
-  artifactKey: Guid(dc122ac4fee8246ac94fd2a6bf8fa549) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/URP using Guid(dc122ac4fee8246ac94fd2a6bf8fa549) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84d11a99f8df4089b4775c27da1a0e03') in 0.001076208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.705020 seconds.
-  path: Assets/URP/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(0d369139d028c4c00ab74adda2ae0265) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/URP/UniversalRenderPipelineGlobalSettings.asset using Guid(0d369139d028c4c00ab74adda2ae0265) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3c99bd8cd940e7e46427ae316933f25') in 0.012521166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.013422 seconds.
-  path: Assets/URP/DefaultVolumeProfile.asset
-  artifactKey: Guid(24a4c845b475044a181e549e1c1442b9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/URP/DefaultVolumeProfile.asset using Guid(24a4c845b475044a181e549e1c1442b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a50f53e51f4a8966e3d0d990e5a3155d') in 0.002038917 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3928 unused Assets / (6.0 MB). Loaded Objects now: 4624.
-Memory consumption went from 131.0 MB to 124.9 MB.
-Total: 5.129458 ms (FindLiveObjects: 0.139542 ms CreateObjectMapping: 0.092125 ms MarkObjects: 3.098458 ms  DeleteObjects: 1.799042 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.574159 seconds.
-  path: Assets/Imported/CharacterController
-  artifactKey: Guid(a908cce6aa3d8f74e954ad889e088948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/CharacterController using Guid(a908cce6aa3d8f74e954ad889e088948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7fb3bcfcddd356a8e32710fb58e504c') in 0.000202625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.927651 seconds.
-  path: Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs
-  artifactKey: Guid(3547d539220f51a4599294020a5f42cf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs using Guid(3547d539220f51a4599294020a5f42cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f987662554f5d2f027999989d82d2b91') in 0.000964208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/Prefabs/EventSystem
-  artifactKey: Guid(c89b887ca267db84f895ccd75713a923) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/Prefabs/EventSystem using Guid(c89b887ca267db84f895ccd75713a923) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '901eb54a3dfa0b663096eccfc4694530') in 0.001067458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Imported/CharacterController/Runtime/InputSystem
-  artifactKey: Guid(8332b7ba9ad58d641bb71880befb7da1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/InputSystem using Guid(8332b7ba9ad58d641bb71880befb7da1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e012e912b13c59576a7f017fd971575') in 0.001079667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/UI/Images/UI_Circle_Bevel_Base.png
-  artifactKey: Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/UI/Images/UI_Circle_Bevel_Base.png using Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '846534061127c5091724e28e48a53da3') in 0.006072833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/UI/Images/UI_Icon_Look.png
-  artifactKey: Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/UI/Images/UI_Icon_Look.png using Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4249e982e14c4d7bb5b80da00346ad7') in 0.006930209 seconds
+  artifactKey: Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain/New Terrain.asset using Guid(0b7c8e06e12c645218f60ef35e145f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6744a8fa512e566e0a9bf7ff08e053e1') in 0.004648459 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
-  path: Assets/Imported/CharacterController/Runtime/FirstPersonController/Scripts/FirstPersonController.cs
-  artifactKey: Guid(55919ac34a26952479f3fc91f777b2fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/FirstPersonController/Scripts/FirstPersonController.cs using Guid(55919ac34a26952479f3fc91f777b2fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '278db091ca2214a54b6fea420d2ace25') in 0.001422167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed17ec593408d5745b073fdf6964f400') in 0.00307375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef
-  artifactKey: Guid(21046f374a25c0845adf5880bccdb30c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef using Guid(21046f374a25c0845adf5880bccdb30c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f56b2fd8681f8a0e43b508eac3c81f3') in 0.001659583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Settings/High_PipelineAsset.asset
-  artifactKey: Guid(85f61ec9fa7114d5f88c736532abeeef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Settings/High_PipelineAsset.asset using Guid(85f61ec9fa7114d5f88c736532abeeef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b549737867caf74ce09e6f943693139') in 0.003140166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ea00d09ed05d3f443b3320fa54ec4b74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Settings/DefaultVolumeProfile.asset using Guid(ea00d09ed05d3f443b3320fa54ec4b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9cb60571aa0fa3d304f1bf13cddf638') in 0.002649917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/Scripts
-  artifactKey: Guid(7b0e507958fc3a940b3afabb02fdb2cc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/Scripts using Guid(7b0e507958fc3a940b3afabb02fdb2cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f3bb8a53322430b0d137ba0b3378aee') in 0.000974667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile
-  artifactKey: Guid(b2ea1ce5c438c7248934bf9294b1cd67) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile using Guid(b2ea1ce5c438c7248934bf9294b1cd67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81b7db5351c9377a971ca51c500fcd0a') in 0.001379833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/UI/Images/UI_Circle_Faded.png
-  artifactKey: Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/UI/Images/UI_Circle_Faded.png using Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfd6b609f0e34451d4ae24bd4b0b0089') in 0.008114459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imported/CharacterController/Editor/StarterAssetsDeployMenu.cs
-  artifactKey: Guid(e75357183ea302c4d998136de2cc9669) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Editor/StarterAssetsDeployMenu.cs using Guid(e75357183ea302c4d998136de2cc9669) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bc12259a47d6b722b972c87fe7cdaf3') in 0.001294667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Settings/Ultra_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(4ee808e09c6774436b0c2a048e53e708) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Settings/Ultra_PipelineAsset_ForwardRenderer.asset using Guid(4ee808e09c6774436b0c2a048e53e708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2843e7e75f49c4368acbcffe73bc29e4') in 0.005792292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Imported/CharacterController/Editor
-  artifactKey: Guid(4a12a4d2ef7f03c49b93b5e1dc150ae3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Editor using Guid(4a12a4d2ef7f03c49b93b5e1dc150ae3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9d450dd1930d57ff5a41b796d6650be') in 0.001093625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/Prefabs
-  artifactKey: Guid(49852dd85b2de7b4997a61317937f2e1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/Prefabs using Guid(49852dd85b2de7b4997a61317937f2e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d249dbf69b3d8fb8409a19cbef38b6d') in 0.000908292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Settings/Ultra_PipelineAsset.asset
-  artifactKey: Guid(8b79b977e86dc420c9a4b7b6c05a74a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Settings/Ultra_PipelineAsset.asset using Guid(8b79b977e86dc420c9a4b7b6c05a74a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e911d218c61f6ee1d68600232d3683c1') in 0.007341792 seconds
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(f770874a2992840d8b15d8ac061728bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(f770874a2992840d8b15d8ac061728bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc22bf2f44df79fd6a3108bd7bf040fe') in 0.0018575 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/UI/Images/UI_Icon_Move.png
-  artifactKey: Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/UI/Images/UI_Icon_Move.png using Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb6a02ad001426bfff0959097ca9843d') in 0.005112042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 63.518792 seconds.
+  path: Assets/Art/Shaders/GrassShader.shadergraph
+  artifactKey: Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/GrassShader.shadergraph using Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad8671d595859d8a9bd20665e43fe7dc') in 0.563033583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/UI/TouchScreenInputDefaultStyle.tss
-  artifactKey: Guid(271d0c8741016ff4eae1b9070589c571) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/UI/TouchScreenInputDefaultStyle.tss using Guid(271d0c8741016ff4eae1b9070589c571) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '276868c3bed6ec5a6935c825f2a11b27') in 0.002690625 seconds
+  Time since last request: 36.286378 seconds.
+  path: Assets/Art/Shaders/GrassShader.shadergraph
+  artifactKey: Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/GrassShader.shadergraph using Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e677ba4378b6e77f357e1c2595666c3') in 0.596629542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.013233 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94908105632630c3e0ce0c49c8ee437d') in 0.012653833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.432732 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f4de388b631e2637217ba3927518e16') in 0.006741292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.201985 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '892b7684a91014430eb8bcafb0d5abfb') in 0.006483125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.223917 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81af0cb6f2dbcfbf4f3a40cfd7c3e37e') in 0.00632775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.208301 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3790d35809ac8fc5c41b577f64566b99') in 0.006051459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.346257 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ab26aaa88dda055de6bc106446af20e') in 0.005927291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.105997 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbae7fee30f0a61f7ab7dd29ecfcb554') in 0.524188917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.307196 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c52f4273e7658c0bac0af335d622b66') in 0.582516583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.798142 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e25798f7ae6ffd8d68a74d39019a995') in 0.527694833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.876131 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e500a360252c8b4b68b19497b0f053fd') in 0.559828042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.528574 seconds.
+  path: Assets/Art/Prefabs/grass.prefab
+  artifactKey: Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/grass.prefab using Guid(77d1804ce1e4d4e66a7cdea17c48c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c81ffaf86584eac85ec8d826ba3617dd') in 0.545544584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.899774 seconds.
+  path: Assets/Art/Shaders/GrassShader.shadergraph
+  artifactKey: Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/GrassShader.shadergraph using Guid(ca34d76ddaf9845bcb0d58f5b3825fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23445091c30315729e8a7501f2520f2d') in 0.006556292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.919578 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b61568f6f7b1ebe9d7c95ac5190b760a') in 0.006269167 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Settings/High_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(3845c0ed313b24e138f25ec5f2faacf0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Settings/High_PipelineAsset_ForwardRenderer.asset using Guid(3845c0ed313b24e138f25ec5f2faacf0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f32a0cced57973216a2c634bfcaf0ac4') in 0.002263417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 76.567902 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5622abb4113434094136fc5be693ed8') in 0.508026625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Imported/CharacterController/Runtime/FirstPersonController
-  artifactKey: Guid(989cd1dabf2a892459e96139bfdd4a4a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/FirstPersonController using Guid(989cd1dabf2a892459e96139bfdd4a4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '157dcafdad78539fb67dce052c76be73') in 0.0011205 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 47.505041 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c7f748f1991dddb76661049caf5efd5') in 0.517838042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef
-  artifactKey: Guid(18828b1d1020dde47bec693eef18a5b9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef using Guid(18828b1d1020dde47bec693eef18a5b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4e36968c0904025daa1737686bc85eb') in 0.001490042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 12.580034 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '223df9202243b43e6b1ec0a495ee8da5') in 0.515192334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/PlayerFollowCamera.prefab
-  artifactKey: Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73cf0c136ea3757a602518262c092653') in 0.003812833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 35.735211 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '197867d69c572eb71469bd941a65f5f1') in 0.433575959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/Scripts/TouchscreenInput.cs
-  artifactKey: Guid(6d7e4e4868ed5df4b928c22423c690a0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/Scripts/TouchscreenInput.cs using Guid(6d7e4e4868ed5df4b928c22423c690a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18bc26ce88fe0138afdd379fffbfd9a8') in 0.001223542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 58.597312 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2e60b0d21168d8b63f426c9abb1d32a') in 0.478020333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Settings
-  artifactKey: Guid(96e208b3987121642ad4a6ea559d2d10) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Settings using Guid(96e208b3987121642ad4a6ea559d2d10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eda8117a11231a84478f20d1d26aa305') in 0.00102875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 315.863563 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c9736449b539cd174b6bd42f8645c3a') in 0.522711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Settings/Low_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(44b37c8f6729f41cfac615998e7cc9f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Settings/Low_PipelineAsset_ForwardRenderer.asset using Guid(44b37c8f6729f41cfac615998e7cc9f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98448e5b76d337f6d04a11336a8fce61') in 0.003506417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 24.063145 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '023384a86ef7e9c13899a9dfd0df2698') in 0.444339916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs
-  artifactKey: Guid(901182334643ba1438a25accc6bd0c79) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs using Guid(901182334643ba1438a25accc6bd0c79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd25d165eb5026fcdd60c0ea22c31e48a') in 0.001516375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 205.032851 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a0bc498cc99ddd4e3895bf905e30320') in 0.008442667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Mobile/UI/TouchScreenInputUI.uxml
-  artifactKey: Guid(ccd45339dc8ff154fbbe578856089eaf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Mobile/UI/TouchScreenInputUI.uxml using Guid(ccd45339dc8ff154fbbe578856089eaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c890000294556c667a116c2051357b9') in 0.003443041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Imported/CharacterController/Runtime/Common/BasicRigidBodyPush.cs
-  artifactKey: Guid(909d917d73a63f940ac158d02e936645) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported/CharacterController/Runtime/Common/BasicRigidBodyPush.cs using Guid(909d917d73a63f940ac158d02e936645) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbb47fdb44dcce86c48aff40a6166793') in 0.001147166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 38.837393 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2911d0e53a7fa14ed5a6fe9853d0396e') in 0.449547667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-Thread 0x173187000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.212 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.03 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.239 seconds
-Domain Reload Profiling: 452ms
-	BeginReloadAssembly (71ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (8ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (93ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (42ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (33ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (239ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (186ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (111ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (6.0 MB). Loaded Objects now: 4625.
-Memory consumption went from 137.4 MB to 131.4 MB.
-Total: 4.303542 ms (FindLiveObjects: 0.151292 ms CreateObjectMapping: 0.059375 ms MarkObjects: 2.346875 ms  DeleteObjects: 1.745750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16b503000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.192 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.03 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.231 seconds
-Domain Reload Profiling: 424ms
-	BeginReloadAssembly (63ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (8ms)
-	LoadAllAssembliesAndSetupDomain (101ms)
-		LoadAssemblies (82ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (32ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (231ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (178ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.05 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (6.6 MB). Loaded Objects now: 4627.
-Memory consumption went from 136.4 MB to 129.8 MB.
-Total: 4.290875 ms (FindLiveObjects: 0.149041 ms CreateObjectMapping: 0.086834 ms MarkObjects: 2.481334 ms  DeleteObjects: 1.573375 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16b503000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.194 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Thread 0x172727000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.196 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
 Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.234 seconds
-Domain Reload Profiling: 429ms
-	BeginReloadAssembly (63ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (8ms)
-	LoadAllAssembliesAndSetupDomain (104ms)
-		LoadAssemblies (83ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (33ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (234ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (178ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (105ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (5.0 MB). Loaded Objects now: 4629.
-Memory consumption went from 135.5 MB to 130.4 MB.
-Total: 4.186416 ms (FindLiveObjects: 0.144833 ms CreateObjectMapping: 0.064167 ms MarkObjects: 2.437666 ms  DeleteObjects: 1.539583 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16b503000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.192 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.231 seconds
-Domain Reload Profiling: 425ms
-	BeginReloadAssembly (62ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (8ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (82ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (33ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (232ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (178ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (6.2 MB). Loaded Objects now: 4631.
-Memory consumption went from 134.6 MB to 128.4 MB.
-Total: 4.234250 ms (FindLiveObjects: 0.148500 ms CreateObjectMapping: 0.075875 ms MarkObjects: 2.326875 ms  DeleteObjects: 1.682625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 76.530508 seconds.
-  path: Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57ac020057a3649aac013a84f3741abc') in 0.158390084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.401072 seconds.
-  path: Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a7f6309cfe88cf883fcd721486986e0') in 0.005215875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.384388 seconds.
-  path: Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b6f055885b41b82e64eb10ce0caf9dd') in 0.005694458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.039985 seconds.
-  path: Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/CharacterController/Runtime/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '116fc7c74870118c55e37bceaac0d07a') in 0.006755791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
-
-========================================================================
-Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16b503000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.200 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.231 seconds
-Domain Reload Profiling: 433ms
-	BeginReloadAssembly (71ms)
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 472ms
+	BeginReloadAssembly (70ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (8ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (82ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (33ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (232ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (177ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (5.7 MB). Loaded Objects now: 4653.
-Memory consumption went from 138.2 MB to 132.5 MB.
-Total: 4.154666 ms (FindLiveObjects: 0.163292 ms CreateObjectMapping: 0.063333 ms MarkObjects: 2.401750 ms  DeleteObjects: 1.525958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 38.200271 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(eb1604fd948aa4046b9175f3cbaf3aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(eb1604fd948aa4046b9175f3cbaf3aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8214f846ae84aa2af8d2b030565a863a') in 0.000762666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.125362 seconds.
-  path: Assets/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(22f569f60e09d4f94821d09a24167551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NestedParent_Unpack.prefab using Guid(22f569f60e09d4f94821d09a24167551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '345fa01c8794c7e991f600246e226a47') in 0.147928833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.013797 seconds.
-  path: Assets/Prefabs/CharacterController.prefab
-  artifactKey: Guid(22f569f60e09d4f94821d09a24167551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CharacterController.prefab using Guid(22f569f60e09d4f94821d09a24167551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f6589c0c4cbfe3652bd637a7d2b0a29') in 0.007323333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
-
-========================================================================
-Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16b503000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.200 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.03 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.231 seconds
-Domain Reload Profiling: 432ms
-	BeginReloadAssembly (71ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (15ms)
+	RebuildCommonClasses (14ms)
 	RebuildNativeTypeToScriptingClass (5ms)
 	initialDomainReloadingComplete (7ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (83ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (40ms)
 			TypeCache.Refresh (3ms)
 				TypeCache.ScanAssembly (0ms)
 			BuildScriptInfoCaches (32ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (231ms)
+	FinalizeReload (275ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (177ms)
+		SetupLoadedEditorAssemblies (209ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (5.4 MB). Loaded Objects now: 4675.
-Memory consumption went from 141.6 MB to 136.2 MB.
-Total: 4.554417 ms (FindLiveObjects: 0.149958 ms CreateObjectMapping: 0.065125 ms MarkObjects: 2.498459 ms  DeleteObjects: 1.840584 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 72.394156 seconds.
-  path: Packages/com.unity.settings-manager/package.json
-  artifactKey: Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.settings-manager/package.json using Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1776011c1111a93fb2ac5e382d236d4') in 0.00863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.421798 seconds.
-  path: Packages/com.unity.searcher/package.json
-  artifactKey: Guid(86b0e09d2fd75564f90fbc601e1eec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/package.json using Guid(86b0e09d2fd75564f90fbc601e1eec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5473875eae3275f8430a8318fc0e578b') in 0.000388291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.667458 seconds.
-  path: Packages/com.unity.render-pipelines.core/package.json
-  artifactKey: Guid(753d1ac2429a21a44ac5f937cbbb409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/package.json using Guid(753d1ac2429a21a44ac5f937cbbb409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e9430af8ae8c4d83bbca23cac8305d0') in 0.000369084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.245745 seconds.
-  path: Packages/com.unity.shadergraph/package.json
-  artifactKey: Guid(d5ac453c34e359d439de9d724772ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/package.json using Guid(d5ac453c34e359d439de9d724772ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed94e67d3cfdef600e4a04d137045d81') in 0.0003765 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.431983 seconds.
-  path: Packages/com.unity.test-framework/package.json
-  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7f2643a43040087b23eb6a115535201') in 0.000400958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.479907 seconds.
-  path: Packages/com.unity.ugui/package.json
-  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f63bac1437d088f6c9932e08eb69091b') in 0.000381667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.415952 seconds.
-  path: Packages/com.unity.render-pipelines.universal/package.json
-  artifactKey: Guid(30648b8d550465f4bb77f1e1afd0b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/package.json using Guid(30648b8d550465f4bb77f1e1afd0b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72bd414d334f3821608ccf6d7f9569a2') in 0.000386333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.887820 seconds.
-  path: Packages/com.unity.rendering.light-transport/package.json
-  artifactKey: Guid(b52d73aaad31e6c43a0beef9552f9951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.rendering.light-transport/package.json using Guid(b52d73aaad31e6c43a0beef9552f9951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69b424944413b1868bbd758183b1066e') in 0.000383417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.449303 seconds.
-  path: Packages/com.unity.render-pipelines.universal-config/package.json
-  artifactKey: Guid(b13c5df96839b924b85df50f9659b9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal-config/package.json using Guid(b13c5df96839b924b85df50f9659b9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bac3b784dca7a0c5f675f580accb1db') in 0.000347625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.115980 seconds.
-  path: Packages/com.unity.splines/package.json
-  artifactKey: Guid(7fbddc3d391b09748856824634187946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.splines/package.json using Guid(7fbddc3d391b09748856824634187946) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50511d95af301a1ac5a61a1d9e63c465') in 0.000414834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.564745 seconds.
-  path: Assets/Art/Shaders
-  artifactKey: Guid(66183b747adae4799a097a4372361909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Shaders using Guid(66183b747adae4799a097a4372361909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f3027a9fd31365c8e3e9b0fcdc3389e') in 0.000247833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16b503000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.261 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.254 seconds
-Domain Reload Profiling: 516ms
-	BeginReloadAssembly (107ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (9ms)
-	LoadAllAssembliesAndSetupDomain (126ms)
-		LoadAssemblies (110ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (44ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (34ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (254ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (197ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (123ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (132ms)
 			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (5.4 MB). Loaded Objects now: 4677.
-Memory consumption went from 140.5 MB to 135.1 MB.
-Total: 4.604333 ms (FindLiveObjects: 0.162584 ms CreateObjectMapping: 0.115792 ms MarkObjects: 2.571667 ms  DeleteObjects: 1.754208 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16b503000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.204 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.230 seconds
-Domain Reload Profiling: 435ms
-	BeginReloadAssembly (65ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (8ms)
-	LoadAllAssembliesAndSetupDomain (111ms)
-		LoadAssemblies (92ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (32ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (230ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (174ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -1929,193 +500,111 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (6.3 MB). Loaded Objects now: 4679.
-Memory consumption went from 139.6 MB to 133.4 MB.
-Total: 4.099375 ms (FindLiveObjects: 0.157958 ms CreateObjectMapping: 0.063250 ms MarkObjects: 2.319583 ms  DeleteObjects: 1.558542 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16b503000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.205 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.232 seconds
-Domain Reload Profiling: 437ms
-	BeginReloadAssembly (66ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (8ms)
-	LoadAllAssembliesAndSetupDomain (112ms)
-		LoadAssemblies (92ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (33ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (232ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (177ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (105ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (6.4 MB). Loaded Objects now: 4681.
-Memory consumption went from 138.8 MB to 132.4 MB.
-Total: 4.267583 ms (FindLiveObjects: 0.163750 ms CreateObjectMapping: 0.060333 ms MarkObjects: 2.367667 ms  DeleteObjects: 1.675667 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16b503000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.196 seconds
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for OSXStandalone target not found
-Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
-Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.237 seconds
-Domain Reload Profiling: 434ms
-	BeginReloadAssembly (65ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (8ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (84ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (32ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (238ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (183ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Refreshing native plugins compatible for Editor in 0.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3927 unused Assets / (5.3 MB). Loaded Objects now: 4683.
-Memory consumption went from 137.9 MB to 132.6 MB.
-Total: 4.517833 ms (FindLiveObjects: 0.178291 ms CreateObjectMapping: 0.169917 ms MarkObjects: 2.487208 ms  DeleteObjects: 1.682000 ms)
+Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4077 unused Assets / (7.3 MB). Loaded Objects now: 4853.
+Memory consumption went from 143.6 MB to 136.3 MB.
+Total: 4.446584 ms (FindLiveObjects: 0.152875 ms CreateObjectMapping: 0.063125 ms MarkObjects: 2.588791 ms  DeleteObjects: 1.641542 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 545.140346 seconds.
+  path: Assets/Art/Materials/Grass.mat
+  artifactKey: Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Grass.mat using Guid(43f8045cb12084a82ba41c799c636a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a605b0854d7b0aaa4644c132f8036f2') in 0.792462042 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.189261 seconds.
+  path: Assets/Art/Sprites/windtext.jpg
+  artifactKey: Guid(0c04a3bcc2bd345129754fa9009ddaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/windtext.jpg using Guid(0c04a3bcc2bd345129754fa9009ddaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa5d25df0c1630b1a536e1d811d1c78b') in 0.008214459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 798.694168 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(9956c12d727bf42e3acef63bfd71a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(9956c12d727bf42e3acef63bfd71a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c77dd2b37ea98c267f78a919d58ba70') in 0.008845917 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16f5cf000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.202 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 456ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (8ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (81ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (34ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4077 unused Assets / (7.6 MB). Loaded Objects now: 4875.
+Memory consumption went from 141.7 MB to 134.2 MB.
+Total: 4.042459 ms (FindLiveObjects: 0.147042 ms CreateObjectMapping: 0.062750 ms MarkObjects: 2.312375 ms  DeleteObjects: 1.520084 ms)
+
+Prepare: number of updated asset objects reloaded= 1
