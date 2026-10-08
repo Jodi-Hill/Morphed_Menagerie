@@ -1755,3 +1755,367 @@ Received Import Request.
 Start importing Assets/Art/Shaders using Guid(66183b747adae4799a097a4372361909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f3027a9fd31365c8e3e9b0fcdc3389e') in 0.000247833 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16b503000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.261 seconds
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for OSXStandalone target not found
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.254 seconds
+Domain Reload Profiling: 516ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (34ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (254ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3927 unused Assets / (5.4 MB). Loaded Objects now: 4677.
+Memory consumption went from 140.5 MB to 135.1 MB.
+Total: 4.604333 ms (FindLiveObjects: 0.162584 ms CreateObjectMapping: 0.115792 ms MarkObjects: 2.571667 ms  DeleteObjects: 1.754208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16b503000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.204 seconds
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for OSXStandalone target not found
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.230 seconds
+Domain Reload Profiling: 435ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (8ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (230ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (174ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3927 unused Assets / (6.3 MB). Loaded Objects now: 4679.
+Memory consumption went from 139.6 MB to 133.4 MB.
+Total: 4.099375 ms (FindLiveObjects: 0.157958 ms CreateObjectMapping: 0.063250 ms MarkObjects: 2.319583 ms  DeleteObjects: 1.558542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16b503000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.205 seconds
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for OSXStandalone target not found
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 437ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (8ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (232ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (177ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3927 unused Assets / (6.4 MB). Loaded Objects now: 4681.
+Memory consumption went from 138.8 MB to 132.4 MB.
+Total: 4.267583 ms (FindLiveObjects: 0.163750 ms CreateObjectMapping: 0.060333 ms MarkObjects: 2.367667 ms  DeleteObjects: 1.675667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16b503000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.196 seconds
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for OSXStandalone target not found
+Assembly with name 'URPWizard' already exists (Assets/Imported/Starter Assets/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'URPWizard' already exists (Assets/Imported/CharacterController/Editor/URPWizard/URPWizard.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/Starter Assets/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets.Editor' already exists (Assets/Imported/CharacterController/Editor/Unity.StartAssets.Editor.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/Starter Assets/Runtime/Unity.StarterAssets.asmdef)
+Assembly with name 'Unity.StarterAssets' already exists (Assets/Imported/CharacterController/Runtime/Unity.StarterAssets.asmdef)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.237 seconds
+Domain Reload Profiling: 434ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (8ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (238ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3927 unused Assets / (5.3 MB). Loaded Objects now: 4683.
+Memory consumption went from 137.9 MB to 132.6 MB.
+Total: 4.517833 ms (FindLiveObjects: 0.178291 ms CreateObjectMapping: 0.169917 ms MarkObjects: 2.487208 ms  DeleteObjects: 1.682000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
