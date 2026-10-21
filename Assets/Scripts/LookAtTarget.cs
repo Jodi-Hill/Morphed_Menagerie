@@ -28,17 +28,10 @@ public class LookAtTarget : MonoBehaviour
     private IEnumerator LookAt()
     {
         Quaternion lookRotation = Quaternion.LookRotation(Target.position - transform.position);
-
-        float time = 0;
+        lookRotation = Quaternion.Euler(transform.rotation.eulerAngles.x, lookRotation.eulerAngles.y, transform.rotation.eulerAngles.z);
 
         Quaternion initialRotation = transform.rotation;
-        while (time < 1)
-        {
-            transform.rotation = Quaternion.Slerp(initialRotation, lookRotation, time);
-
-            time += Time.deltaTime * Speed;
-
-            yield return null;
-        }
+        transform.rotation = Quaternion.Slerp(initialRotation, lookRotation, 1f);
+        yield return null;
     }
 }
