@@ -3,22 +3,42 @@ using UnityEngine;
 
 public class LookAtTarget : MonoBehaviour
 {
-    public Transform target;
-    private Coroutine lookAtCoroutine;
-   
-   void Update()
-    {
-        LookAt();
-    }
-    private void LookAt()
-    {
-        Quaternion LookRotation = Quaternion.LookRotation(target.position - transform.position);
-        LookRotation = Quaternion.Euler(transform.rotation.eulerAngles.x, LookRotation.eulerAngles.y, transform.rotation.eulerAngles.z);
+    public Transform Target;
+    public float Speed = 1f;
 
+    private Coroutine LookCoroutine;
+
+    void Update()
+    {
+        StartRotating();
+
+    }
+
+
+    public void StartRotating()
+    {
+        if (LookCoroutine != null)
         {
-            Debug.Log("LookAt");
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, LookRotation, 1f);
+            StopCoroutine(LookCoroutine);
+        }
+
+        LookCoroutine = StartCoroutine(LookAt());
+    }
+
+    private IEnumerator LookAt()
+    {
+        Quaternion lookRotation = Quaternion.LookRotation(Target.position - transform.position);
+
+        float time = 0;
+
+        Quaternion initialRotation = transform.rotation;
+        while (time < 1)
+        {
+            transform.rotation = Quaternion.Slerp(initialRotation, lookRotation, time);
+
+            time += Time.deltaTime * Speed;
+
+            yield return null;
         }
     }
-
 }
